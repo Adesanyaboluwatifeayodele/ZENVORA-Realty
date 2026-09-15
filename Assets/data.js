@@ -15,9 +15,9 @@ window.PROPERTIES = [
         yield: 5.8,
         description: "A light-filled penthouse designed around generous entertaining spaces, quiet views and refined material finishes.",
         images: [
-            "Assets/images/istockphoto-2204585214-612x612.jpg",
-            "Assets/images/istockphoto-2251968653-612x612.jpg",
-            "Assets/images/photo-1600566753086-00f18fb6b3ea.avif"
+            "Assets/istockphoto-2204585214-612x612.jpg",
+            "Assets/istockphoto-2251968653-612x612.jpg",
+            "Assets/photo-1600566753086-00f18fb6b3ea.avif"
         ],
         features: [
             "Private lift lobby",
@@ -46,8 +46,8 @@ window.PROPERTIES = [
         description: "A private island residence with landscaped gardens, expansive living areas and an effortless indoor-outdoor flow.",
         images: [
             "Assets/images (8).avif",
-            "Assets/images/photo-1600607687939-ce8a6c25118c.avif",
-            "Assets/images/photo-1612419299101-6c294dc2901d.avif"
+            "Assets/photo-1600607687939-ce8a6c25118c.avif",
+            "Assets/photo-1612419299101-6c294dc2901d.avif"
         ],
         features: [
             "Private garden",
@@ -75,9 +75,9 @@ window.PROPERTIES = [
         yield: 6.2,
         description: "Contemporary three-bedroom living close to the energy of Victoria Island, with a polished residential feel.",
         images: [
-            "Assets/images/photo-1617201929478-8eedff7508f9.avif",
-            "Assets/images/photo-1630699144919-681cf308ae82.avif",
-            "Assets/images/photo-1630699293784-9f977570255a.avif"
+            "Assets/photo-1617201929478-8eedff7508f9.avif",
+            "Assets/photo-1630699144919-681cf308ae82.avif",
+            "Assets/photo-1630699293784-9f977570255a.avif"
         ],
         features: [
             "Fully fitted kitchen",
@@ -105,9 +105,9 @@ window.PROPERTIES = [
         yield: 5.5,
         description: "A warm family home with practical proportions, private outdoor space and easy access to key Lekki destinations.",
         images: [
-            "Assets/images/photo-1630699376289-b62375a35505.avif",
-            "Assets/images/photo-1638454795595-0a0abf68614d.avif",
-            "Assets/images/photo-1715985160053-d339e8b6eb94.avif"
+            "Assets/photo-1630699376289-b62375a35505.avif",
+            "Assets/photo-1638454795595-0a0abf68614d.avif",
+            "Assets/photo-1715985160053-d339e8b6eb94.avif"
         ],
         features: [
             "Private compound",
@@ -135,9 +135,9 @@ window.PROPERTIES = [
         yield: 7.1,
         description: "A design-led two-bedroom apartment for buyers who want strong connectivity and modern city living.",
         images: [
-            "Assets/images/photo-1737898378296-94dc316cd443.avif",
-            "Assets/images/premium_photo-1674676471104-3c4017645e6f.avif",
-            "Assets/images/premium_photo-1684175656320-5c3f701c082c.avif"
+            "Assets/photo-1737898378296-94dc316cd443.avif",
+            "Assets/premium_photo-1674676471104-3c4017645e6f.avif",
+            "Assets/premium_photo-1684175656320-5c3f701c082c.avif"
         ],
         features: [
             "Co-working lounge",
@@ -165,9 +165,9 @@ window.PROPERTIES = [
         yield: 6.5,
         description: "A calm three-bedroom apartment with bright interiors and a sense of openness inspired by its coastal setting.",
         images: [
-            "Assets/images/images (7).jfif",
-            "Assets/images/images (6).jfif",
-            "Assets/images/photo-1600585154340-be6161a56a0c.avif"
+            "Assets/images (7).jfif",
+            "Assets/images (6).jfif",
+            "Assets/photo-1600585154340-be6161a56a0c.avif"
         ],
         features: [
             "Ocean outlook",
