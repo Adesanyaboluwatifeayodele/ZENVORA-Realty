@@ -21,8 +21,8 @@
   ];
 
   function clocksMarkup() {
-    return `<section class="world-clock-strip" aria-label="Real-time world clocks"><div class="container clock-row">${zones.map((z, i) => `<div class="clock-item"><span>${z[0]}</span><strong data-clock="${i}">--:--:--</strong><small>${z[1]}</small></div>`).join("")}</div></section>`;
-  }
+  return `<section class="world-clock-strip" aria-label="Real-time world clocks"><div class="container clock-row">${zones.map((z, i) => `<div class="clock-item"><span>${z[0]}</span><strong data-date="${i}">-- --- ----</strong><strong data-clock="${i}">--:--:--</strong><small>${z[1]}</small></div>`).join("")}</div></section>`;
+}
   function updateClocks() {
     $$('[data-clock]').forEach(el => { const z = zones[Number(el.dataset.clock)]; el.textContent = new Intl.DateTimeFormat(z[3], { timeZone: z[2], hour: "2-digit", minute: "2-digit", second: "2-digit", hour12: false }).format(new Date()); });
   }
