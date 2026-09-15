@@ -45,7 +45,7 @@ window.PROPERTIES = [
         yield: 4.9,
         description: "A private island residence with landscaped gardens, expansive living areas and an effortless indoor-outdoor flow.",
         images: [
-            "Assets/images(10).jfif",
+            "Assets/images (10).jfif",
             "Assets/photo-1600607687939-ce8a6c25118c.avif",
             "Assets/photo-1612419299101-6c294dc2901d.avif"
         ],
