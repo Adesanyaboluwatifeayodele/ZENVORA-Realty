@@ -17,7 +17,7 @@ window.PROPERTIES = [
         images: [
             "Assets/istockphoto-2204585214-612x612.jpg",
             "Assets/istockphoto-2251968653-612x612.jpg",
-            "Assets/photo-1600566753086-00f18fb6b3ea.avif"
+            "Assets/images (11)"
         ],
         features: [
             "Private lift lobby",
@@ -45,7 +45,7 @@ window.PROPERTIES = [
         yield: 4.9,
         description: "A private island residence with landscaped gardens, expansive living areas and an effortless indoor-outdoor flow.",
         images: [
-            "Assets/images (8).avif",
+            "Assets/images (10)",
             "Assets/photo-1600607687939-ce8a6c25118c.avif",
             "Assets/photo-1612419299101-6c294dc2901d.avif"
         ],
