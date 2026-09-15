@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="Interactive mortgage and investment property tools.">
+    <title>Property Tools — ZENROVA Realty</title>
+    <link rel="stylesheet" href="styles.css">
+        <link rel="icon"  href="assets/images/d3aab230-2fa8-4fbe-bbcf-b0b6bb29197e.png">
+</head>
+
+<body data-page="tools">
+    <div id="site-header"></div>
+    <main>
+        <section class="page-hero tools-intro">
+            <div class="container"><span class="eyebrow">Property tools</span>
+                <h1>Make the numbers<br><em>feel simple.</em></h1>
+                <p>Interactive frontend tools for buyers and investors. Change an input and the decision picture updates
+                    immediately.</p>
+            </div>
+        </section>
+        <section class="container tools-grid" id="mortgage-tool">
+            <article class="tool-card"><span class="eyebrow">01 / Mortgage studio</span>
+                <h2>What could the monthly payment look like?</h2>
+                <p>Adjust price, deposit, rate and term to see an illustrative principal-and-interest estimate.</p>
+                <div class="tool-fields"><label>Property price<input id="m-price" type="number" value="185000000"
+                            min="0" step="1000000"></label><label>Deposit %<input id="m-deposit" type="number"
+                            value="20" min="0" max="90" step="1"></label><label>Annual rate %<input id="m-rate"
+                            type="number" value="12" min="0" max="40" step="0.1"></label><label>Term<select
+                            id="m-years">
+                            <option>15</option>
+                            <option selected>20</option>
+                            <option>25</option>
+                            <option>30</option>
+                        </select></label></div>
+                <div class="tool-result"><span class="eyebrow">Estimated monthly payment</span><strong
+                        id="m-payment">₦0</strong>
+                    <div class="result-grid">
+                        <div><b id="m-loan">₦0</b><small>Loan amount</small></div>
+                        <div><b id="m-interest">₦0</b><small>Total interest</small></div>
+                        <div><b id="m-total">₦0</b><small>Total paid</small></div>
+                    </div>
+                    <div id="mortgage-bars" class="bar-chart"></div>
+                    <div class="result-grid">
+                        <div><b id="m-deposit-output">₦0</b><small>Deposit</small></div>
+                        <div><b id="m-rate-output">0%</b><small>Rate</small></div>
+                        <div><b id="m-years-output">0 yrs</b><small>Term</small></div>
+                    </div>
+                    <p class="tool-note">Illustrative calculation only. Actual lending terms, fees, taxes and insurance
+                        are not included.</p>
+                </div>
+            </article>
+            <article class="tool-card"><span class="eyebrow">02 / Investment studio</span>
+                <h2>Estimate the rental picture.</h2>
+                <p>Test rental income, occupancy and annual costs to see a simple gross and net yield scenario.</p>
+                <div class="tool-fields"><label>Purchase price<input id="roi-price" type="number" value="98000000"
+                            min="0" step="1000000"></label><label>Monthly rent<input id="roi-rent" type="number"
+                            value="650000" min="0" step="10000"></label><label>Annual costs<input id="roi-costs"
+                            type="number" value="1200000" min="0" step="10000"></label><label>Occupancy %<input
+                            id="roi-occupancy" type="number" value="92" min="0" max="100" step="1"></label><label>Annual
+                        value growth %<input id="roi-growth" type="number" value="6" min="0" max="30"
+                            step="0.1"></label></div>
+                <div class="tool-result"><span class="eyebrow">Scenario output</span>
+                    <div class="result-grid">
+                        <div><b id="roi-gross">0%</b><small>Gross yield</small></div>
+                        <div><b id="roi-net">0%</b><small>Net yield</small></div>
+                        <div><b id="roi-income">₦0</b><small>Net annual income</small></div>
+                    </div>
+                    <div class="result-grid">
+                        <div><b id="roi-value">₦0</b><small>Illustrative 5-year value</small></div>
+                    </div>
+                    <p class="tool-note">Scenario model only. It does not predict market performance or guarantee rental
+                        income.</p>
+                </div>
+            </article>
+        </section>
+        <section class="utility-strip">
+            <div class="container utility-grid">
+                <div><span class="eyebrow light">Shortlist</span>
+                    <h3>Save your favourites.</h3>
+                    <p>Keep promising homes in the browser with no account required.</p>
+                </div>
+                <div><span class="eyebrow light">Comparison</span>
+                    <h3>See up to three.</h3>
+                    <p>Compare price, size, bedrooms, bathrooms, release year and indicative yield.</p>
+                </div>
+                <div><span class="eyebrow light">Viewing</span>
+                    <h3>Prepare the next step.</h3>
+                    <p>Open any property, explore the gallery and request a viewing time.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <div id="site-footer"></div>
+    <script src="assets/data.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

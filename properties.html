@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="Browse and compare curated properties from Adesanya Estates.">
+    <title>Properties — ZENROVA Realty</title>
+    <link rel="stylesheet" href="styles.css">
+        <link rel="icon"  href="assets/images/d3aab230-2fa8-4fbe-bbcf-b0b6bb29197e.png">
+</head>
+
+<body data-page="properties">
+    <div id="site-header"></div>
+    <main>
+        <section class="page-hero">
+            <div class="container"><span class="eyebrow">Curated collection</span>
+                <h1>Find your<br><em>next address.</em></h1>
+                <p>Search, shortlist and compare residences selected for quality, location and long-term value.</p>
+            </div>
+        </section>
+        <section class="listing-section container">
+            <form id="filter-form" class="filters">
+                <div class="filter-field search-field"><span>Search</span><input id="q" type="search"
+                        placeholder="Neighbourhood, property or feature…"></div>
+                <div class="filter-field"><span>Location</span><select id="location">
+                        <option value="">All locations</option>
+                    </select></div>
+                <div class="filter-field"><span>Type</span><select id="type">
+                        <option value="">All types</option>
+                    </select></div>
+                <div class="filter-field"><span>Bedrooms</span><select id="beds">
+                        <option value="">Any</option>
+                        <option value="2">2+</option>
+                        <option value="3">3+</option>
+                        <option value="4">4+</option>
+                        <option value="5">5+</option>
+                    </select></div>
+                <div class="filter-field"><span>Status</span><select id="status">
+                        <option value="">Any status</option>
+                    </select></div>
+                <div class="filter-field"><span>Sort</span><select id="sort">
+                        <option value="featured">Featured</option>
+                        <option value="price-low">Price: low to high</option>
+                        <option value="price-high">Price: high to low</option>
+                        <option value="newest">Newest</option>
+                        <option value="yield">Best yield</option>
+                    </select></div><button class="filter-reset" type="reset">Reset</button>
+            </form>
+            <div class="advanced-filter-row">
+                <div class="filter-field"><span>Price range · ₦</span>
+                    <div class="range-wrap"><input id="min-price" type="number" min="0" step="5000000"
+                            placeholder="Min price"><input id="max-price" type="number" min="0" step="5000000"
+                            placeholder="Max price"></div>
+                </div>
+                <div class="filter-field"><span>Must-have amenity</span><select id="amenity">
+                        <option value="">Any amenity</option>
+                    </select></div>
+                <div class="filter-field"><span>Smart mode</span><select id="match-mode">
+                        <option value="all">All matches</option>
+                        <option value="value">Income-focused · 6%+ yield</option>
+                        <option value="space">Space-focused · 250m²+</option>
+                    </select></div>
+            </div>
+            <div class="listing-meta"><span id="result-count">0 properties</span><span id="live-status">Live filter ·
+                    browser only</span></div>
+            <div id="property-grid" class="property-grid"></div>
+            <div id="empty-state" class="empty-state hidden">
+                <h3>No properties match that search.</h3>
+                <p>Try widening your filters or explore the full collection.</p><button class="btn btn-dark"
+                    id="empty-reset" type="button">Clear filters</button>
+            </div>
+        </section>
+    </main><a class="favourites-link" href="favourites.html">Saved homes <span id="fav-count"
+            class="fav-count hidden">0</span></a>
+    <div id="site-footer"></div>
+    <script src="assets/data.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

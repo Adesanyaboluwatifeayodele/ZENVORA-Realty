@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="Contact Adesanya Estates.">
+    <title>Contact — ZENROVA Realty</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="assets/images/d3aab230-2fa8-4fbe-bbcf-b0b6bb29197e.png">
+</head>
+
+<body data-page="contact">
+    <div id="site-header"></div>
+    <main>
+        <section class="page-hero contact-hero">
+            <div class="container"><span class="eyebrow light">Private consultation</span>
+                <h1>Let's talk about<br><em>your next move.</em></h1>
+                <p>Tell us what you are looking for and use the form to prepare an enquiry.</p>
+            </div>
+        </section>
+        <section class="contact-layout container">
+            <div class="contact-details"><span class="eyebrow">Direct contact</span>
+                <h2>Adesanya<br><em>Boluwatife.</em></h2><a href="mailto:adesanyaoloruntoba@gmail.com" target="_blank"
+                    rel="noopener noreferrer">adesanyaoloruntoba@gmail.com</a><a
+                    href="tel:07035310262">07035310262</a><span>Lagos · Nigeria</span>
+                <div class="socials"><a href="https://github.com/drnm3024-hash" target="_blank"
+                        rel="noopener noreferrer">GitHub ↗</a><a
+                        href="https://www.instagram.com/adesanyaboluwatifeayodele?stkn=djZ0c3ZhZnI1aWFo" target="_blank"
+                        rel="noopener noreferrer">Instagram ↗</a><a
+                        href="https://www.linkedin.com/in/adesanya-boluwatife-6464a2381" target="_blank"
+                        rel="noopener noreferrer">LinkedIn ↗</a></div>
+            </div>
+            <form id="contact-form" class="contact-form">
+                <div class="form-row"><label>Name<input required name="name" placeholder="Your full name"
+                            autocomplete="name"></label><label>Email<input required type="email" name="email"
+                            placeholder="you@example.com" autocomplete="email"></label></div>
+                <div class="form-row"><label>Phone<input name="phone" placeholder="0703 531 0262"
+                            autocomplete="tel"></label><label>Service<select required id="contact-service"
+                            name="service">
+                            <option value="">Choose one</option>
+                            <option>Acquisition advisory</option>
+                            <option>Property marketing</option>
+                            <option>Investment guidance</option>
+                            <option>Private viewings</option>
+                        </select></label></div><label>What can we help with?<textarea required name="message" rows="5"
+                        placeholder="Tell us about the property, area, budget or timing."></textarea></label><button
+                    class="btn btn-dark" type="submit">Prepare enquiry <span>↗</span></button>
+                <div id="contact-success" class="form-success hidden">Your enquiry has been prepared in this frontend
+                    demo. No information has been sent or stored on a server.</div>
+            </form>
+        </section>
+    </main>
+    <div id="site-footer"></div>
+    <script src="assets/data.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
