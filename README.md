@@ -1,14 +1,7 @@
-# Adesanya Estates — Premium Interactive Frontend v3
+# ZENVORA Realty — Premium Interactive Website v3
 
-A polished, multi-page, frontend-only real-estate website for Adesanya Boluwatife.
+A polished, multi-page, frontend-only real-estate website for ZENVORA Realty.
 
-## Run it
-
-No Node.js, npm, database or backend is required.
-
-1. Extract the ZIP.
-2. Double-click `OPEN-WEBSITE.bat` on Windows, or open `index.html` directly.
-3. Internet access is recommended because the demo uses remote property photography and Google Fonts.
 
 ## Included pages
 
@@ -40,8 +33,3 @@ No Node.js, npm, database or backend is required.
 - Reduced-motion accessibility support
 - Frontend-only contact form validation
 
-## Important
-
-This version intentionally has **no backend**. Forms do not send data anywhere. Favourites and comparison are stored only in the visitor's browser.
-
-The finance tools are illustrative models, not lending or investment advice.
