@@ -2013,3 +2013,19 @@ em {
         margin-top: 10px
     }
 }
+
+/* Fix ZENROVA Realty brand layout */
+.brand {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    justify-content: center;
+    gap: 6px;
+}
+
+.brand strong,
+.brand span,
+.brand small {
+    display: block !important;
+    margin: 0;
+}
