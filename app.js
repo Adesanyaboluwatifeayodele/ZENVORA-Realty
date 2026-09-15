@@ -46,7 +46,12 @@
   }
 
   function footer() {
-    $("#site-footer").innerHTML = `<footer class="site-footer"><div class="container footer-grid"><div><a class="brand" href="index.html"><strong>ZENVORA Realty</strong><small>L A G O S  •  N I G E R I A</small></a><p>A refined property advisory experience for buyers, sellers and investors who value clarity, quality and considered spaces.</p></div><div><h4>Explore</h4><a href="properties.html">Properties</a><a href="tools.html">Property tools</a><a href="services.html">Services</a><a href="about.html">About</a><a href="contact.html">Contact</a></div><div><h4>Connect</h4><a href="mailto:adesanyaoloruntoba@gmail.com">adesanyaoloruntoba@gmail.com</a><a href="tel:07035310262">07035310262</a><a href="https://github.com/drnm3024-hash" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a href="https://www.instagram.com/adesanyaboluwatifeayodele?stkn=djZ0c3ZhZnI1aWFo" target="_blank" rel="noopener noreferrer">Instagram ↗</a><a href="https://www.linkedin.com/in/adesanya-boluwatife-6464a2381" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a></div></div><div class="container footer-bottom"><span>© ${new Date().getFullYear()} ZENROVA Realty</span><span>Interactive Real Estate Website · Built for Property Discovery, Comparison & Enquiries</span></div></footer>`;
+    $("#site-footer").innerHTML = `<footer class="site-footer"><div class="container footer-grid"><div>
+    <a class="brand" href="index.html">
+    <strong>ZENVORA Realty</strong>
+    <span class="brand-location">L A G O S  •  N I G E R I A</span>
+</a>
+<p>A refined property advisory experience for buyers, sellers and investors who value clarity, quality and considered spaces.</p></div><div><h4>Explore</h4><a href="properties.html">Properties</a><a href="tools.html">Property tools</a><a href="services.html">Services</a><a href="about.html">About</a><a href="contact.html">Contact</a></div><div><h4>Connect</h4><a href="mailto:adesanyaoloruntoba@gmail.com">adesanyaoloruntoba@gmail.com</a><a href="tel:07035310262">07035310262</a><a href="https://github.com/drnm3024-hash" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a href="https://www.instagram.com/adesanyaboluwatifeayodele?stkn=djZ0c3ZhZnI1aWFo" target="_blank" rel="noopener noreferrer">Instagram ↗</a><a href="https://www.linkedin.com/in/adesanya-boluwatife-6464a2381" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a></div></div><div class="container footer-bottom"><span>© ${new Date().getFullYear()} ZENROVA Realty</span><span>Interactive Real Estate Website · Built for Property Discovery, Comparison & Enquiries</span></div></footer>`;
   }
 
   function toast(msg) {
