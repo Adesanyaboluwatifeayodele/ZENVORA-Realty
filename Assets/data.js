@@ -17,7 +17,7 @@ window.PROPERTIES = [
         images: [
             "Assets/istockphoto-2204585214-612x612.jpg",
             "Assets/istockphoto-2251968653-612x612.jpg",
-            "Assets/images(11).jfif"
+            "Assets/images (11).jfif"
         ],
         features: [
             "Private lift lobby",
