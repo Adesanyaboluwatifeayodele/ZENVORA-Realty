@@ -1,4 +1,4 @@
-# ZENVORA Realty — Premium Interactive Website v3
+# ZENVORA Realty — Premium Interactive Website 
 
 A polished, multi-page, frontend-only real-estate website for ZENVORA Realty.
 
